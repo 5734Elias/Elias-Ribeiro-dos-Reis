@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Nunito:wght@300&family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Teko:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Teko', sans-serif;
+}
+body{
+    font-size: 1.3em;
+    margin: 1% 5%;
+}
+a{
+    text-decoration: none;
+}
+
+#menu{
+    width: 100%;
+}
+#menu ul{
+    background: rgba(6,90,125,255);
+    background: linear-gradient(90deg, rgba(4,2,7,255) 0%, rgba(16,6,21,255) 35%, rgba(27,12,73,255) 45%, rgba(16,6,21,255) 80%);
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+}
+#menu_li1 img{
+    border-radius: 50px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+#menu a{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 30px;
+}
+
+.menu_li a:hover{
+    border-bottom: 2px solid white;
+}
+
+#efeitos{
+    background-color:black;
+    border-radius: 15px;
+}
+#efeitos img{
+    width: 100%;
+    opacity: .7; 
+}
+
+#saudacao{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 40%;
+    font-size: 2em;
+}
+#saudacao p{
+    text-align: start;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1em;
+}
+#saudacao img{
+    border-radius: 50%;
+    height: 350px;
+    width: 300px;
+}
+
+main{
+    background-color: rgba(4,1,7,255);
+}
+article{
+    width: 80%;
+    margin: auto;
+}
+article h1{
+    margin-top: 4%;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    border-bottom: solid 1px white ;
+}
+article p{
+    padding: 10px;
+    color: white;
+}
+
+
+@keyframes transicao {
+    0% {color: rgba(27,4,65,255);}
+    50% {color: white;}
+    100% {color: rgba(27,4,65,255);}
+}
+.animacao{
+    animation-name: transicao ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite ;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background: rgba(4,1,7,255);
+    background: linear-gradient(180deg, rgba(4,1,7,255), rgba(61,20,105,255));
+    padding: 3px;
+    font-size: 1.2em;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about_me{
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+#about_me img{
+    width: 20%;
+}
+table { 
+    width:50%;
+    margin:2% auto;
+    border-spacing:0;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    color: white;
+    font-size: 1.4em;
+}
+ 
+caption {
+    font-size:130%;
+    padding:5px 0;
+    background-color:#ECECEC;
+    border: 1px solid #ccc;
+    background-color: rgba(100,24,171,255);
+    letter-spacing: 2px;
+}
+
+#col1{
+    width: 20%;
+}
+#col2{
+    width: 60%;
+}
+#col3{
+    width: 20%;
+}
+ 
+tr, td, th {
+    border: 2px solid #ccc;
+    border-bottom:none;
+    border-right:none;
+    padding:5px;
+}
+ 
+td { 
+    text-align:center;
+}
+
+
+
+.icones{
+    display: flex;
+    margin-left: 30%;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }to{
+        width: 7em;
+    }
+}
+.animation{
+    animation: 
+    typing 5s steps(40) 1s normal both;
+ }
+.linguagens{
+    display: block;
+    margin: 50px 15%;
+}
+.linguagens img{
+    width: 15%;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px;
+    box-shadow: 2px solid white;
+}
+.linguagens img:hover{
+    opacity: 1.2;
+}
